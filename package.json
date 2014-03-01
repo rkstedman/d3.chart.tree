@@ -1,29 +1,21 @@
 {
-  "name": "d3.chart.template",
-  
+  "name": "d3.chart.tree",
   "description": "A template for creating d3.chart based charts",
-
-  "version": "0.2.0",
-  
-  "author": "Your Name",
-  
+  "version": "0.1.0",
+  "author": "rkstedman",
   "license": "MIT Expat",
-  
   "repository": {
     "type": "git",
-    "url": "git://github.com/yourOrgOrName/d3.chart.chart.git"
+    "url": "git://github.com/rkstedman/d3.chart.tree.git"
   },
-  
   "keywords": [
     "d3.js",
     "visualization",
     "svg"
   ],
-
   "d3.chart": {
     "version" : "0.1.3"
   },
-
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-concat": "~0.1.3",

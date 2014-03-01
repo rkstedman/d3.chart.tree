@@ -6,8 +6,8 @@ module.exports = function(grunt) {
     meta: {
       pkg: grunt.file.readJSON("package.json"),
       srcFiles: [
-        "src/template.js",
-        "src/template-extensions.js"
+        "src/tree.js",
+        "src/tree-extensions.js"
       ]
     },
     watch: {
@@ -49,17 +49,18 @@ module.exports = function(grunt) {
       options: {
         banner: "/*! <%= meta.pkg.name %> - v<%= meta.pkg.version %>\n" +
           " *  License: <%= meta.pkg.license %>\n" +
+          " *  Author: rkstedman\n" +
           " *  Date: <%= grunt.template.today('yyyy-mm-dd') %>\n" +
           " */\n"
       },
       dist: {
         files: {
-          "dist/d3.chart.template.js": "<%= meta.srcFiles %>"
+          "dist/d3.chart.tree.js": "<%= meta.srcFiles %>"
         }
       },
       release: {
         files: {
-          "d3.chart.template.js": "<%= meta.srcFiles %>"
+          "d3.chart.tree.js": "<%= meta.srcFiles %>"
         }
       }
     },
@@ -70,24 +71,24 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          "dist/d3.chart.template.min.js": "dist/d3.chart.template.js"
+          "dist/d3.chart.tree.min.js": "dist/d3.chart.tree.js"
         }
       },
       release: {
         files: {
-          "d3.chart.template.min.js": "dist/d3.chart.template.js"
+          "d3.chart.tree.min.js": "dist/d3.chart.tree.js"
         }
       }
     },
     stylus: {
       dist: {
         files: {
-          "dist/d3.chart.template.css" : ["src/styles/**/*.styl"]
+          "dist/d3.chart.tree.css" : ["src/styles/**/*.styl"]
         }
       },
       release: {
         files: {
-          "d3.chart.template.css" : ["src/styles/**/*.styl"]
+          "d3.chart.tree.css" : ["src/styles/**/*.styl"]
         }
       }
     }

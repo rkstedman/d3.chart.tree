@@ -1,10 +1,11 @@
-/*! d3.chart.template - v0.1.0
+/*! d3.chart.tree - v0.1.0
  *  License: MIT Expat
- *  Date: 2013-10-16
+ *  Author: rkstedman
+ *  Date: 2014-03-01
  */
 d3.chart("TemplateChart", {
-  initialize: function() {
-
+  initialize: function(options) {
+    
   }
 });
 d3.chart("TemplateChart").extend("ExtendedTemplateChart", {
