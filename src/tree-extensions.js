@@ -1,3 +1,3 @@
-d3.chart("TemplateChart").extend("ExtendedTemplateChart", {
+d3.chart("Tree").extend("LabeledTree", {
 
 });

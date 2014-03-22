@@ -1,1 +1,3 @@
-.yourChart{test:1px}
+g.node circle{fill:#4682b4;stroke:#4682b4;stroke-width:2px}
+.node path{fill:#4682b4;stroke:#4682b4;stroke-width:2px}
+path.link{fill:none;stroke:#ccc;stroke-width:1px}
