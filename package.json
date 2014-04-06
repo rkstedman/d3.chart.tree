@@ -1,6 +1,6 @@
 {
   "name": "d3.chart.tree",
-  "description": "A template for creating d3.chart based charts",
+  "description": "A d3.chart for drawing hierachical data in a tree format",
   "version": "0.1.0",
   "author": "rkstedman",
   "license": "MIT Expat",
