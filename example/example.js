@@ -4,7 +4,8 @@
     .append("svg")
     .attr("height", 900)
     .attr("width", 1600)
-    .chart("Tree");
+    .chart("Tree")
+    .margins(50);
   
   d3.json("flare.json", function(error, root) {
     chart.draw(root);

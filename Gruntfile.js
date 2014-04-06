@@ -22,7 +22,7 @@ module.exports = function(grunt) {
     },
     jshint: {
       options: {
-        curly: true,
+        curly: false,
         undef: true
       },
       chart: {
